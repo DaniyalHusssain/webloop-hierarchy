@@ -7,19 +7,14 @@ body {
 }
 
 .head {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  text-transform: uppercase;
-  font-size: 24px;
+  width: 15%;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 button {
@@ -33,34 +28,38 @@ button {
   font-size: 16px;
   transition: background-color 0.3s ease;
 }
+/* h2 {
+  text-align: center;
+  letter-spacing: 10pc;
+} */
 
 button:hover {
   background-color: #0056b3;
 }
 .line {
-  position: absolute;
+  /* position: absolute; */
   width: 2px;
   background-color: rgb(216, 213, 213);
-  height: 12pc;
-  top: 25%;
-  left: 50%;
+  height: 50px;
+  margin: auto;
+  /* top: 30%;
+  left: 50%; */
   transform: translateX(-50%);
   z-index: -1;
 }
 .line2 {
-  position: absolute;
-  width: 11pc;
+  /* position: absolute; */
+  width: 21pc;
   background-color: rgb(216, 213, 213);
   height: 2px;
-  top: 56.5%;
+  /* top: 20%; */
+  /* right: 0.1pc; */
 }
 .line3 {
-  position: absolute;
   width: 2px;
   background-color: rgb(216, 213, 213);
   height: 2pc;
-  top: 56.7%;
-  left: 43.5%;
+  margin-left: 4.9pc;
   transform: translateX(-50%);
   z-index: -1;
 }
@@ -69,18 +68,17 @@ button:hover {
   width: 2px;
   background-color: rgb(216, 213, 213);
   height: 2pc;
-  top: 56.7%;
-  left: 56.5%;
+  top: 0pc;
+  left: 25.73pc;
   transform: translateX(-50%);
-  z-index: -1;
+  /* z-index: -1; */
 }
 .line5 {
-  position: absolute;
+  /* position: absolute; */
   width: 2px;
   background-color: rgb(216, 213, 213);
   height: 3pc;
-  top: 66.7%;
-  left: 43.5%;
+  margin-left: 3.6pc;
   transform: translateX(-50%);
   z-index: -1;
 }
@@ -89,40 +87,360 @@ button:hover {
   width: 2px;
   background-color: rgb(216, 213, 213);
   height: 3pc;
-  top: 66.7%;
-  left: 56.5%;
+  top: 0%;
+  left: 87.5%;
   transform: translateX(-50%);
   z-index: -1;
 }
 .Frontend-intern {
-  margin-right: 2pc;
+  margin-right: 9pc;
 }
-
-.CEO,
+.frontend-info {
+  margin-right: 8pc;
+}
+/* .CEO,
 .manager,
 .info,
 .frontend-info,
 .backend-info,
 .Frontend-intern,
 .Backend-intern {
-  margin-top: 10px;
-  position: relative;
-}
+  /* margin-top: 10px; */
+/* flex-wrap: wrap;
+} */
 .Parentnode,
 .Childnode,
 .developers,
 .dev-info,
 .interns-info {
-  margin-top: 2pc;
+  /* margin-top: 2pc; */
+  position: relative;
+}
+.Sheraz {
+  display: none;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+.Saleem {
+  display: none;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+.CEO-info {
+  display: block;
+  border: 1px solid #007bff;
+  width: 15pc;
+  height: 15pc;
+}
+.Sheraz:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 20px 3px gray;
+}
+.CEO-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media (max-width: 768px) {
-  .container {
-    padding: 10px;
-  }
+.CEO-info img {
+  /* margin-left: 4.2\pc; */
+  margin-left: 4.2pc;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+  border: 1px solid #0056b3;
+}
+.Manager-info img {
+  margin-left: 4.2pc;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+  border: 1px solid #0056b3;
+}
+.Manager-text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.Manager-info {
+  display: block;
+  border: 1px solid #007bff;
+  width: 15pc;
+  height: 15pc;
+}
+.Saleem:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 20px 3px gray;
+}
+.info-info {
+  display: none;
+}
+.frontend-dev {
+  display: none;
+}
+.fdeveloper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* position: relative; */
+}
+.Saqib-info img {
+  margin-left: 4.2pc;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+  border: 1px solid #0056b3;
+}
 
-  button {
-    padding: 8px 16px;
-    font-size: 14px;
-  }
+.Saqib-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Saqib-info {
+  display: block;
+  border: 1px solid #007bff;
+  width: 15pc;
+  height: 15pc;
+  /* position: absolute;
+  left: 10pc; */
+}
+.Aliyan-info {
+  display: block;
+  border: 1px solid #007bff;
+  width: 15pc;
+  height: 15pc;
+  /* position: absolute;
+  left: 10pc; */
+}
+
+.Aliyan-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Aliyan-info img {
+  margin-left: 4.2pc;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+  border: 1px solid #0056b3;
+}
+.Shakir-info {
+  display: block;
+  border: 1px solid #007bff;
+  width: 15pc;
+  height: 15pc;
+}
+.Shakir-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Shakir-info img {
+  margin-left: 4.2pc;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+  border: 1px solid #0056b3;
+}
+.backend-dev {
+  display: none;
+}
+.bdeveloper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-left: 30pc; */
+
+  /* position: relative; */
+}
+.Sheraz-info {
+  display: block;
+  border: 1px solid #007bff;
+  width: 15pc;
+  height: 15pc;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  /* gap: 10pc; */
+  /* position: absolute;
+  left: 10pc; */
+}
+.Sheraz-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Sheraz-info img {
+  margin-left: 4.2pc;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+  border: 1px solid #0056b3;
+}
+.Sheraz-info:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 20px 3px gray;
+}
+.Asad-info {
+  display: block;
+  border: 1px solid #007bff;
+  width: 15pc;
+  height: 15pc;
+  margin-top: 2pc;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  /* position: absolute;
+  left: 10pc; */
+}
+.Asad-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Asad-info img {
+  margin-left: 4.2pc;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+  border: 1px solid #0056b3;
+}
+.Asad-info:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 20px 3px gray;
+}
+.intern-info {
+  display: none;
+}
+.frontend-intern {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* justify-content: flex-start; */
+  /* position: relative; */
+}
+.Mansoor-info {
+  display: block;
+  border: 1px solid #007bff;
+  width: 15pc;
+  height: 15pc;
+  /* gap: 10pc; */
+  /* position: absolute;
+  left: 10pc; */
+}
+.Mansoor-info img {
+  margin-left: 4.2pc;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+  border: 1px solid #0056b3;
+}
+.Mansoor-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Ali-info {
+  display: block;
+  border: 1px solid #007bff;
+  width: 15pc;
+  height: 15pc;
+  /* gap: 10pc; */
+  /* position: absolute;
+  left: 10pc; */
+}
+.Ali-info img {
+  margin-left: 4.2pc;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+  border: 1px solid #0056b3;
+}
+.Ali-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.b-intern-info {
+  display: none;
+}
+.backend-intern {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Kashif-info {
+  display: block;
+  border: 1px solid #007bff;
+  width: 15pc;
+  height: 15pc;
+  /* gap: 10pc; */
+  /* position: absolute;
+  left: 10pc; */
+}
+
+.Kashif-info img {
+  margin-left: 4.2pc;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+  border: 1px solid #0056b3;
+}
+
+.Kashif-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Maqbul-info {
+  display: block;
+  border: 1px solid #007bff;
+  width: 15pc;
+  height: 15pc;
+  /* gap: 10pc; */
+  /* position: absolute;
+  left: 10pc; */
+}
+
+.Maqbul-info img {
+  margin-left: 4.2pc;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+  border: 1px solid #0056b3;
+}
+
+.Maqbul-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2,
+h3 {
+  font-size: smaller;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #69a0db;
 }
